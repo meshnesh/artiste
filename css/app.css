@@ -1,0 +1,33 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:500);
+body {
+    background: #000;
+    height: 80%}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    margin-right: 3%;
+    color: #fff;
+    margin-top: 50%;
+    font-size: 2em;
+}
+
+
+/*******MEDIA QUERIES*********/
+
+@media only screen and (max-width: 360px) {
+    img {
+        max-width: 100%;
+        width: 90%;
+        height: 390px;
+    }
+    .small-6 {
+        width: 100%;
+    }
+    p {
+        color: #fff;
+        margin-top: 15%;
+        text-align: center;
+        font-size: 1.05em;
+    }
+}
