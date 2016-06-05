@@ -1,35 +1,115 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+
 <head>
-    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,900' rel='stylesheet' type='text/css'>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="Tonny" content="text">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vicki</title>
+    <link href='https://fonts.googleapis.com/css?family=Raleway:500' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/contact.css">
+
 </head>
 
-<div id="container">
-    <div id="demo">
-
-        <p class="padabove">I created this simple contact forum for myself as a template. Feel free to use it if you'd like. </p>
-
-        <a href="http://www.rprojectonline.com/"><img src="http://rprojectonline.com/images/RPlogo.png" class="dim"></a>
-    </div>
-
-    <div id="contact-wrap">
-        <div id="contact-area">
-
-            <form method="post" action="contactengine.php">
+<body>
 
 
-                <input type="text" name="Name" id="Name" placeholder="Full Name" />
+    <!-------------------------------NAVIGATON---------------------->
 
-                <input type="text" name="City" id="City" placeholder="City" />
+    <nav class="nav ">
+        <div class="nav-center">
+            <a class="toggle-nav" href="#">&#9776;</a>
 
-                <input type="text" name="Email" id="Email" placeholder="Email" />
+            <div class="nav-mobile">
+                <ul class="left">
+                    <!--                    <li><a href="#"><i class="fa fa-home"></i> Home</a></li>-->
+                    <!--                    <li><a href="#"><i class="fa fa-book"></i> About</a></li>-->
 
-                <input type="text" name="Phone" id="Phone" placeholder="Phone" />
-
-                <textarea name="Message" rows="20" cols="20" id="Message" placeholder="Message"></textarea>
-
-                <input type="submit" name="submit" value="Submit" class="submit-button" />
-            </form>
+                </ul>
+                <ul class="right">
+                    <li>
+                        <a href="index.html"><i class="fa fa-user"></i>Home </a>
+                    </li>
+                    <li>
+                        <a href="index4.html"><i class="fa fa-fire"></i> Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-envelope"></i> Activities</a>
+                    </li>
+                </ul>
+            </div>
         </div>
+    </nav>
+
+    <!-------------------------END OF NAVIGATION-------------->
+
+
+
+    <div id="container">
+
+
+        <div class="row medium-uncollapse large-collapse">
+
+            <!----------SIDE SECTION FOR IMAGE---------->
+
+            <div class="small-6 columns">
+                <div id="demo">
+
+                    <p class="padabove">
+                        Fell free to drop me a message any time, promise to reply back
+                    </p>
+
+                    <a href="#"><img src="img/about.jpg" class="dim"></a>
+                </div>
+            </div>
+
+            <!------------            END OF SIDE SECTION FOR IMAGE------------>
+
+
+            <!---------            CONTACT FORM--------->
+
+            <div class="small-6 columns">
+                <div id="contact-wrap">
+                    <div id="contact-area">
+
+                        <form method="post" action="contactengine.php">
+
+
+                            <input type="text" name="Name" id="Name" placeholder="Full Name" />
+
+                            <input type="text" name="City" id="City" placeholder="City" />
+
+                            <input type="text" name="Email" id="Email" placeholder="Email" />
+
+                            <input type="text" name="Phone" id="Phone" placeholder="Phone" />
+
+                            <textarea name="Message" rows="20" cols="20" id="Message" placeholder="Message"></textarea>
+
+                            <input type="submit" name="submit" value="Submit" class="submit-button" />
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!------------            END A OF CONTACT FORM--------------->
+        </div>
+
+
+
+
+
     </div>
 
 
-</div>
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>

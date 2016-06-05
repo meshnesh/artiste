@@ -3,27 +3,16 @@
     outline: 0;
 }
 
+
+/*
 html {
     height: 100%;
 }
+*/
 
 body {
-    background: #858d98;
-    /* Old browsers */
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#858d98', endColorstr='#4a525d', GradientType=1);
-    /* IE6-9 fallback on horizontal gradient */
-    background: -moz-radial-gradient(top, ellipse cover, #858d98 1%, #4a525d 99%);
-    /* FF3.6+ */
-    background: -webkit-gradient(radial, top top, 0px, top top, 100%, color-stop(1%, #858d98), color-stop(99%, #4a525d));
-    /* Chrome,Safari4+ */
-    background: -webkit-radial-gradient(top, ellipse cover, #858d98 1%, #4a525d 99%);
-    /* Chrome10+,Safari5.1+ */
-    background: -o-radial-gradient(top, ellipse cover, #858d98 1%, #4a525d 99%);
-    /* Opera 12+ */
-    background: -ms-radial-gradient(top, ellipse cover, #858d98 1%, #4a525d 99%);
-    /* IE10+ */
-    background: radial-gradient(ellipse at top, #858d98 1%, #4a525d 99%);
-    /* W3C */
+    background: #000;
+    height: 80%
 }
 
 .dim:hover {
@@ -34,7 +23,8 @@ body {
 }
 
 #container {
-    margin: auto;
+    margin-top: 10%;
+    margin-left: 23%;
     width: 800px;
     margin-bottom: 50px;
     overflow: auto;
@@ -59,7 +49,7 @@ body {
     font-size: 16px;
     font-weight: 300;
     text-align: left;
-    color: #fff;
+    color: rgb(243, 167, 96);
 }
 
 #demo h1 {
@@ -90,7 +80,7 @@ body {
     font-size: 16px;
     font-weight: 300;
     width: 402px;
-    color: #fff;
+    color: #000;
     overflow: auto;
     float: left;
 }
@@ -107,7 +97,7 @@ body {
     width: 342px;
     font-family: 'Lato', calibri, arial;
     font-size: 14px;
-    font-weight: 300;
+    font-weight: 500;
     color: #fff;
     background-color: transparent;
     border-top: 1px solid transparent;
@@ -128,7 +118,7 @@ body {
 
 #contact-area textarea:focus,
 #contact-area input:focus {
-    background-color: #333;
+    background-color: rgba(243, 167, 96, 0.64);
     border-top: 1px solid transparent;
     border-left: 1px solid transparent;
     border-bottom: 1px solid #fff;
@@ -156,7 +146,7 @@ body {
 
 #contact-area input.submit-button:hover {
     color: #fff;
-    background-color: #333;
+    background-color: rgba(243, 167, 96, 0.64);
 }
 
 label {
@@ -171,23 +161,23 @@ label {
 }
 
 ::-webkit-input-placeholder {
-    color: #fff;
+    color: #000;
     font-size: 14px;
 }
 
 :-moz-placeholder {
     /* Firefox 18- */
-    color: #fff;
+    color: #000;
     font-size: 14px;
 }
 
 ::-moz-placeholder {
     /* Firefox 19+ */
-    color: #fff;
+    color: #000;
     font-size: 14px;
 }
 
 :-ms-input-placeholder {
-    color: #fff;
+    color: #000;
     font-size: 14px;
 }
