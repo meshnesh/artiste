@@ -24,10 +24,10 @@ body {
 
 #container {
     margin-top: 10%;
-    margin-left: 23%;
-    width: 800px;
+    margin-left: 15%;
+    /* width: 800px;*/
     margin-bottom: 50px;
-    overflow: auto;
+    /* overflow: auto;*/
 }
 
 #demo {
@@ -180,4 +180,24 @@ label {
 :-ms-input-placeholder {
     color: #000;
     font-size: 14px;
+}
+
+
+/*******MEDIA QUERIES*********/
+
+@media only screen and (max-width: 360px) {
+    img {
+        max-width: 100%;
+        width: 90%;
+        height: 420px;
+    }
+    .small-6 {
+        width: 100%;
+    }
+    p {
+        color: rgba(243, 167, 96, 0.64);
+        margin-top: 10%;
+        text-align: center;
+        font-size: 1.05em;
+    }
 }

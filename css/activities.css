@@ -11,6 +11,10 @@ p {
     font-size: 2em;
 }
 
+img {
+    box-shadow: 5px 5px 5px rgba(243, 167, 96, 0.64);
+}
+
 
 /*******MEDIA QUERIES*********/
 
